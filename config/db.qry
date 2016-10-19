@@ -1,0 +1,10 @@
+create database if not exists camdb;
+create table if not exists camdb.`usr`
+(uid int primary key, name varchar(35),
+lastname varchar(35),acc varchar(50) unique key,
+cell varchar(15),pwd varchar(50));
+create table if not exists camdb.`pic`
+(pid int primary key, pname varchar(35) unique key,pdescr varchar(45),pimg varchar(90), pprice decimal);
+create table if not exists camdb.`comment`(cid int primary key, acomment varchar(300),cpid int, pdate datetime);
+create table if not exists camdb.`think`
+(iid int primary key, iclient int,iprod varchar(35), ppuid int);
