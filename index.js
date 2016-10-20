@@ -27,7 +27,7 @@ var dmO = {
 		{
 			dmO.cnv.height = dmO.cam.videoHeight;
 			dmO.cnv.width = dmO.cam.videoWidth;
-			dmO.cnv.drawImage(dmO.cam, 0, 0, 300, 150);
+			dmO.cnv.drawImage(dmO.cam, 0, 0,300,145);
 		}
 		//console.log(this.cnv, this.ecn);
 	}
