@@ -154,3 +154,8 @@ em{
 	width: 320px;
 	height: 240px;
 }
+#cam{
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}

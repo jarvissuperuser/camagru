@@ -25,9 +25,9 @@ var dmO = {
 
 		if (dmO.feed)
 		{
-			dmO.cnv.height = dmO.cam.videoHeight;
-			dmO.cnv.width = dmO.cam.videoWidth;
-			dmO.cnv.drawImage(dmO.cam, 0, 0,300,145);
+			var h = dmO.cnv.height = dmO.cam.videoHeight;
+			var w = dmO.cnv.width = dmO.cam.videoWidth;
+			dmO.cnv.drawImage(dmO.cam, 0, 0, w, h, 0, 0, 300, 150);
 		}
 		//console.log(this.cnv, this.ecn);
 	}
