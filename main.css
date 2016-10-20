@@ -159,3 +159,9 @@ em{
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 }
+.card{
+	width: 360px;
+	height: 360px;
+	padding-left: 20px;
+}
+
